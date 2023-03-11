@@ -1,19 +1,19 @@
 <template>
   <div class="w-[80%] m-auto mb-[10vh] 3xl:max-w-[40%]">
     <h1
-      class="text-5xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl xl:text-3xl"
+      class="text-5xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl max-xl:text-3xl"
     >
       Skills
     </h1>
     <div
-      class="flex text-3xl flex-wrap justify-center gap-20 max-md:text-xl max-md:gap-0 max-md:justify-start xl:text-xl"
+      class="flex text-3xl flex-wrap justify-center gap-20 max-md:text-xl max-md:gap-0 max-md:justify-start max-xl:text-xl"
     >
       <div class="flex flex-col gap-4 mb-[2rem]">
         <p class="font-thin">technologies I already worked with</p>
         <p>HTML</p>
         <p>
           CSS
-          <span class="text-2xl max-md:text-base xl:text-base"
+          <span class="text-2xl max-md:text-base max-xl:text-base"
             >(<span class="font-accent-font text-accent-text"
               >Vanilla, Tailwind</span
             >)</span
@@ -21,7 +21,7 @@
         </p>
         <p>
           JavaScript
-          <span class="text-2xl max-md:text-base xl:text-base"
+          <span class="text-2xl max-md:text-base max-xl:text-base"
             >(<span class="text-accent-text font-accent-font"
               >Vanilla, Vue.js</span
             >)</span
@@ -30,7 +30,7 @@
         <p>C# (.NET, Xamarin)</p>
         <p>
           Python
-          <span class="text-2xl max-md:text-base xl:text-base"
+          <span class="text-2xl max-md:text-base max-xl:text-base"
             >(<span class="font-accent-font text-accent-text">Flask</span
             >)</span
           >
@@ -53,17 +53,17 @@
         <p>CI-/CD-Tools (TeamCity, Octopus Deploy)</p>
       </div>
     </div>
-    <p class="text-3xl pb-[1rem] leading-relaxed max-md:text-xl xl:text-xl">
+    <p class="text-3xl pb-[1rem] leading-relaxed max-md:text-xl max-xl:text-xl">
       I am used to work on
       <span class="font-accent-font text-accent-text">Windows</span> and
       <span class="font-accent-font text-accent-text">macOS</span>.
     </p>
-    <p class="text-3xl pb-[1rem] leading-relaxed max-md:text-xl xl:text-xl">
+    <p class="text-3xl pb-[1rem] leading-relaxed max-md:text-xl max-xl:text-xl">
       Other technologies I would love to try out in the future are Nuxt, React,
       React Native and nodeJS, aswell as other new upcoming, interesting web
       technologies.
     </p>
-    <p class="text-3xl leading-relaxed max-md:text-xl xl:text-xl">
+    <p class="text-3xl leading-relaxed max-md:text-xl max-xl:text-xl">
       Besides learning about new technologies I also want to further educate
       myself in UI/UX Design.
     </p>

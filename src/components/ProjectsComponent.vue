@@ -10,7 +10,7 @@
         <img
           :src="projects[counter].image"
           :alt="projects[counter].image_alt"
-          class="w-full h-[40vh] rounded-lg max-md:h-[20vh] xl:h-[60vh]"
+          class="w-full h-[40vh] rounded-lg max-md:h-[20vh] max-xl:h-[60vh]"
           @mouseover="hover = true"
           @mouseleave="hover = false"
         />
@@ -18,16 +18,16 @@
           v-if="hover === true"
           class="w-full absolute top-0 left-0 bg-background-accent h-[50%] translate-y-[100%] rounded-b-lg flex flex-col justify-evenly p-[1rem]"
         >
-          <p class="text-2xl font-accent-font text-accent-text xl:text-lg">
+          <p class="text-2xl font-accent-font text-accent-text max-xl:text-lg">
             {{ projects[counter].name }}
           </p>
-          <p class="text-xl xl:text-sm">
+          <p class="text-xl max-xl:text-sm">
             {{ projects[counter].description }}
           </p>
           <div class="flex">
             <div
               v-for="tag in projects[counter].tags"
-              class="border border-main-text rounded-full p-[0.5rem] mr-[0.5rem] xl:text-sm xl:mt-2"
+              class="border border-main-text rounded-full p-[0.5rem] mr-[0.5rem] max-xl:text-sm xl:mt-2"
             >
               {{ tag }}
             </div>
