@@ -1,4 +1,5 @@
 <template>
+  <!-- Media Scrren sizes: xl: laptop, md: mobile-->
   <Header />
   <Home id="home" />
   <About id="about" />

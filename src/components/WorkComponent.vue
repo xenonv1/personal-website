@@ -1,6 +1,6 @@
 <template>
   <div class="py-4">
-    <div class="flex text-3xl pb-[0.5rem] max-md:text-lg">
+    <div class="flex text-3xl pb-[0.5rem] max-md:text-lg xl:text-xl">
       <p class="pr-[1rem] text-accent-text font-accent-font max-md:pr-[0.4rem]">
         {{ data.type }}
       </p>

@@ -1,18 +1,18 @@
 <template>
   <div class="w-[80%] m-auto 3xl:max-w-[40%]">
     <h1
-      class="text-5xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl"
+      class="text-5xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl xl:text-3xl"
     >
       About me
     </h1>
-    <p class="leading-relaxed text-3xl pb-[1rem] max-md:text-xl">
+    <p class="leading-relaxed text-3xl pb-[1rem] max-md:text-xl xl:text-xl">
       Hi, I am Niklas Borresch from Germany. Currently, I am
       <span class="font-accent-font text-accent-text">24 years</span> old and
       live in the
       <span class="font-accent-font text-accent-text">Saarland</span>, next to
       the border to Rheinland-Pfalz.
     </p>
-    <p class="text-3xl max-md:text-xl">
+    <p class="text-3xl max-md:text-xl xl:text-xl">
       If you want to find out more about me, check out my hobbies below.
     </p>
     <div class="grid grid-cols-2 mt-[2rem] mb-[10vh] max-md:grid-cols-1">
