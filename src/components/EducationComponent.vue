@@ -1,11 +1,11 @@
 <template>
   <div class="w-[80%] m-auto mb-[10vh] 3xl:max-w-[40%]">
     <h1
-      class="text-5xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl xl:text-3xl"
+      class="text-3xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl 2xl:text-5xl"
     >
       Education
     </h1>
-    <p class="leading-relaxed text-3xl pb-[4rem] max-md:text-xl max-xl:text-xl">
+    <p class="leading-relaxed text-xl pb-[4rem] max-md:text-xl 2xl:text-3xl">
       In 2017, I started a bachelor's program in Information Management at the
       University of Applied Sciences Kaiserslautern, which I finished with the
       <span class="font-accent-font text-accent-text">bachelor of science</span
@@ -15,7 +15,7 @@
       >.
     </p>
     <EducationDetails v-for="item in education" :data="item" />
-    <p class="text-3xl pt-[4rem] pb-[2rem] max-md:text-xl max-xl:text-xl">
+    <p class="text-xl pt-[4rem] pb-[2rem] max-md:text-xl 2xl:text-3xl">
       My work experience:
     </p>
     <WorkDetails v-for="item in work" :data="item" />

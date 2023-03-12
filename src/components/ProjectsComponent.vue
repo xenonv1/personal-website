@@ -1,7 +1,7 @@
 <template>
   <div class="w-[80%] m-auto 3xl:max-w-[40%]">
     <h1
-      class="text-5xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl xl:text-3xl"
+      class="text-3xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl 2xl:text-5xl"
     >
       Projects
     </h1>
@@ -10,7 +10,7 @@
         <img
           :src="projects[counter].image"
           :alt="projects[counter].image_alt"
-          class="w-full h-[40vh] rounded-lg max-md:h-[20vh] max-xl:h-[60vh]"
+          class="w-full h-[60vh] rounded-lg max-md:h-[20vh] 2xl:h-[60vh]"
           @mouseover="hover = true"
           @mouseleave="hover = false"
         />
@@ -18,16 +18,16 @@
           v-if="hover === true"
           class="w-full absolute top-0 left-0 bg-background-accent h-[50%] translate-y-[100%] rounded-b-lg flex flex-col justify-evenly p-[1rem]"
         >
-          <p class="text-2xl font-accent-font text-accent-text max-xl:text-lg">
+          <p class="text-lg font-accent-font text-accent-text 2xl:text-2xl">
             {{ projects[counter].name }}
           </p>
-          <p class="text-xl max-xl:text-sm">
+          <p class="text-sm 2xl:text-xl">
             {{ projects[counter].description }}
           </p>
           <div class="flex">
             <div
               v-for="tag in projects[counter].tags"
-              class="border border-main-text rounded-full p-[0.5rem] mr-[0.5rem] max-xl:text-sm xl:mt-2"
+              class="mt-2 text-sm border border-main-text rounded-full p-[0.5rem] mr-[0.5rem] 2xl:text-xl 2xl:mt-0"
             >
               {{ tag }}
             </div>

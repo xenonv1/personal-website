@@ -4,11 +4,11 @@
   >
     <div
       v-html="data.icon"
-      class="text-center text-4xl pt-[1rem] max-md:text-xl max-xl:text-2xl"
+      class="text-center text-2xl pt-[1rem] max-md:text-xl 2xl:text-4xl"
     ></div>
     <p
       v-html="data.description"
-      class="p-[1.5rem] leading-relaxed text-2xl max-md:text-xl max-xl:text-xl"
+      class="p-[1.5rem] leading-relaxed text-xl max-md:text-xl 2xl:text-2xl"
     ></p>
   </div>
 </template>
