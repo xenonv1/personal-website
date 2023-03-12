@@ -10,7 +10,7 @@
         <img
           :src="projects[counter].image"
           :alt="projects[counter].image_alt"
-          class="w-full h-[60vh] rounded-lg max-md:h-[20vh] 2xl:h-[60vh]"
+          class="w-full h-[60vh] rounded-lg max-md:h-[20vh] 2xl:h-[40vh]"
           @mouseover="hover = true"
           @mouseleave="hover = false"
         />
