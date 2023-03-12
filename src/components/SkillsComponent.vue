@@ -21,7 +21,7 @@
         </p>
         <p>
           JavaScript
-          <span class="text-base max-md:text-base 2xlxl:text-2xl"
+          <span class="text-base max-md:text-base 2xl:text-2xl"
             >(<span class="text-accent-text font-accent-font"
               >Vanilla, Vue.js</span
             >)</span
