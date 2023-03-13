@@ -10,7 +10,7 @@
         <img
           :src="projects[counter].image"
           :alt="projects[counter].image_alt"
-          class="w-full h-[60vh] rounded-lg max-md:h-[20vh] 2xl:h-[40vh]"
+          class="w-full h-[60vh] rounded-lg max-md:h-[20vh] max-xl:h-[25vh] 2xl:h-[40vh]"
           @mouseover="hover = true"
           @mouseleave="hover = false"
         />
@@ -51,14 +51,14 @@
       <p
         v-if="showDetails === false"
         @click="showDetails = true"
-        class="md:hidden underline p-4 cursor-pointer"
+        class="xl:hidden underline p-4 cursor-pointer"
       >
         Find out more about this project.
       </p>
       <p
         v-else
         @click="showDetails = false"
-        class="md:hidden underline p-4 cursor-pointer"
+        class="xl:hidden underline p-4 cursor-pointer"
       >
         Show less information.
       </p>

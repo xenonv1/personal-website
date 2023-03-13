@@ -15,7 +15,9 @@
     <p class="text-xl max-md:text-xl 2xl:text-3xl">
       If you want to find out more about me, check out my hobbies below.
     </p>
-    <div class="grid grid-cols-2 mt-[2rem] mb-[10vh] max-md:grid-cols-1">
+    <div
+      class="grid grid-cols-2 mt-[2rem] mb-[10vh] max-md:grid-cols-1 max-lg:grid-cols-1"
+    >
       <HobbyCard
         v-for="(hobby, index) in hobbies"
         :data="hobby"
@@ -23,7 +25,7 @@
           'col-span-2': checkForSpan(index),
           'max-w-[40%]': checkForSpan(index),
         }"
-        class="justify-self-center max-md:col-span-1 max-md:w-full max-md:max-w-full"
+        class="justify-self-center max-md:col-span-1 max-md:w-full max-md:max-w-full max-lg:col-span-1 max-lg:w-[60%] max-lg:max-w-[60%]"
       />
     </div>
   </div>
