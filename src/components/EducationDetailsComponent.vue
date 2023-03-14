@@ -11,15 +11,15 @@
     <div class="pl-6 max-md:pl-3 max-lg:pl-4 2xl:pl-8">
       <div class="flex items-baseline flex-wrap">
         <p
-          class="text-2xl mb-3 font-accent-font text-accent-text pr-[1rem] max-md:text-base 2xl:text-3xl"
+          class="text-2xl mb-3 font-accent-font text-accent-text pr-[1rem] max-sm:text-sm max-md:text-base 2xl:text-3xl"
         >
           {{ data.school }}
         </p>
-        <p class="text-lg max-md:text-base 2xl:text-2xl">
+        <p class="text-lg max-sm:text-sm max-md:text-base 2xl:text-2xl">
           {{ data.location }}
         </p>
       </div>
-      <p class="text-lg italic max-md:text-base 2xl:text-2xl">
+      <p class="text-lg italic max-sm:text-sm max-md:text-base 2xl:text-2xl">
         {{ data.degree }}
       </p>
     </div>

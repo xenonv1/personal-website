@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[80%] m-auto 3xl:max-w-[40%]">
+  <div class="w-[80%] m-auto max-sm:mt-12 max-md:mt-0 3xl:max-w-[40%]">
     <h1
       class="text-3xl font-accent-font text-accent-text pb-[3rem] max-md:text-3xl 2xl:text-5xl"
     >
