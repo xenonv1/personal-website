@@ -21,9 +21,9 @@
         </p>
         <p>
           JavaScript
-          <span class="text-base max-md:text-base 2xl:text-2xl"
+          <span class="text-base max-md:text-base 2xl :text-2xl"
             >(<span class="text-accent-text font-accent-font"
-              >Vanilla, Vue.js</span
+              >Vanilla, Vue.js, nodeJS(Express)</span
             >)</span
           >
         </p>
@@ -35,6 +35,7 @@
             >)</span
           >
         </p>
+        <p>Flutter</p>
         <p>Java</p>
         <P>SQL</P>
         <p>Git</p>
@@ -59,9 +60,9 @@
       <span class="font-accent-font text-accent-text">macOS</span>.
     </p>
     <p class="text-xl pb-[1rem] leading-relaxed max-md:text-xl 2xl:text-3xl">
-      Other technologies I would love to try out in the future are Nuxt, React,
-      React Native and nodeJS, aswell as other new upcoming, interesting web
-      technologies.
+      Other technologies I would love to try out in the future are Typescript,
+      Nuxt, React and React Native, aswell as other new upcoming, interesting
+      web technologies.
     </p>
     <p class="text-xl leading-relaxed max-md:text-xl 2xl:text-3xl">
       Besides learning about new technologies I also want to further educate

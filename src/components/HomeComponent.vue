@@ -25,16 +25,25 @@
     </p>
     <p class="text-xl leading-relaxed pb-[4rem] max-md:text-lg 2xl:text-3xl">
       I love to work with web technologies like
-      <span class="font-accent-font text-accent-text">Vue.js</span> or
-      <span class="font-accent-font text-accent-text">Tailwind</span> but I am
+      <span class="font-accent-font text-accent-text">Vue.js</span>,
+      <span class="font-accent-font text-accent-text">Tailwind</span> and
+      <span class="font-accent-font text-accent-text">Express</span> but I am
       also looking forward to learn and work with new things.
     </p>
     <div
       class="flex gap-10 text-5xl flex-wrap-column max-md:text-5xl 2xl:text-6xl"
     >
-      <a href="https://www.linkedin.com/in/niklas-borresch-722676266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="https://github.com/xenonv1" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-      <a href="https://codepen.io/xenon_v1" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+      <a
+        href="https://www.linkedin.com/in/niklas-borresch-722676266/"
+        target="_blank"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/xenonv1" target="_blank"
+        ><i class="fa-brands fa-square-github"></i
+      ></a>
+      <a href="https://codepen.io/xenon_v1" target="_blank"
+        ><i class="fa-brands fa-codepen"></i
+      ></a>
     </div>
   </div>
 </template>
