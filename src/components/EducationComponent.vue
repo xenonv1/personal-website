@@ -44,7 +44,7 @@ export default {
         {
           from: "2017",
           to: "2022",
-          school: "University of Applied Science",
+          school: "University of Applied Sciences",
           location: "Kaiserslautern / Zweibrücken",
           degree: "B.Sc. Information Management",
         },

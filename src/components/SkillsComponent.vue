@@ -6,7 +6,7 @@
       Skills
     </h1>
     <div
-      class="flex text-xl flex-wrap justify-center gap-20 max-md:text-xl max-md:gap-0 max-md:justify-start 2xl:text-3xl"
+      class="flex text-xl flex-wrap justify-center gap-20 max-md:text-xl max-md:gap-0 max-md:justify-start md:max-xl:justify-start md:max-xl:gap-2 md:max-xl:w-[60%] md:max-xl:m-auto 2xl:text-3xl"
     >
       <div class="flex flex-col gap-4 mb-[2rem]">
         <p class="font-thin">technologies I already worked with</p>
