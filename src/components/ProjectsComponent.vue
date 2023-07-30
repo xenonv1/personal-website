@@ -85,6 +85,13 @@
           class="fa-solid fa-arrow-right text-3xl hover:text-4xl cursor-pointer"
         ></i>
       </div>
+      <p class="pb-8">
+        Some of these projects, aswell as other small side-projects can be found
+        on my
+        <a class="underline" href="https://github.com/xenonv1" target="_blank"
+          >GitHub</a
+        >
+      </p>
     </div>
   </div>
 </template>
@@ -98,20 +105,27 @@ export default {
       showDetails: false,
       projects: [
         {
+          name: "Chameleon Scope",
+          description:
+            'Chameleon Scope is a project for the lecture "Agile Softwareentwicklung" (agile software development). Chameleon Scope is an open-source smart glasses solution consisting out of a clip-on wearable and a app that turns the smartphone into the compute module for the chameleon scope. In this project I contributed as a flutter developer working on the "real-to-digital-part" of the project by getting the camera input into the app and also working on labeling the images of the videostream using google ml kit for the object-classification feature. The main goal of this lecture was, to learn agile software development using the scrum framework.',
+          tags: [
+            "Flutter",
+            "Dart",
+            "Google ML Kit",
+            "Websockets",
+            "ESP32",
+            "Scrum",
+          ],
+          image: "/images/chameleon_scope.png",
+          image_alt: "chameleon_scope_project",
+        },
+        {
           name: "GameHQ",
           description:
             "A project during my master's program with a fellow student. Web application that gathers data for video games (web scraping of official stores / data from api's) and displays the data to the user.",
           tags: ["Vue.js", "Flask"],
           image: "/images/game-hq-project.jpg",
           image_alt: "gamehq_project_screenshot",
-        },
-        {
-          name: "Shopping list application",
-          description:
-            "Shopping list web application for private use with custom ordering of items based on the layout of the supermarket. Items are stored in a Firestore cloud database.",
-          tags: ["Vue.js", "Vanilla CSS", "Firebase"],
-          image: "/images/shopping-list-project.jpg",
-          imgage_alt: "shopping_list_project_screenshot",
         },
         {
           name: "Project for the bachelor's thesis",
@@ -128,6 +142,14 @@ export default {
           tags: ["TeamCity", "Octopus Deploy", "Bash"],
           image: "/images/psa-project.png",
           imgage_alt: "psa_project_image",
+        },
+        {
+          name: "Shopping list application",
+          description:
+            "Shopping list web application for private use with custom ordering of items based on the layout of the supermarket. Items are stored in a Firestore cloud database.",
+          tags: ["Vue.js", "Vanilla CSS", "Firebase"],
+          image: "/images/shopping-list-project.jpg",
+          imgage_alt: "shopping_list_project_screenshot",
         },
       ],
       counter: 0,

@@ -16,7 +16,7 @@
 
     <p class="text-xl leading-relaxed pb-[1rem] max-md:text-lg 2xl:text-3xl">
       I am a
-      <span class="font-accent-font text-accent-text">web developer</span>
+      <span class="font-accent-font text-accent-text">software developer</span>
       aswell as
       <span class="font-accent-font text-accent-text"
         >master's student in Information Management</span
@@ -24,11 +24,13 @@
       at the University of Applied Sciences Kaiserslautern.
     </p>
     <p class="text-xl leading-relaxed pb-[4rem] max-md:text-lg 2xl:text-3xl">
-      I love to work with web technologies like
+      I already worked with web technologies like
       <span class="font-accent-font text-accent-text">Vue.js</span>,
       <span class="font-accent-font text-accent-text">Tailwind</span> and
-      <span class="font-accent-font text-accent-text">Express</span> but I am
-      also looking forward to learn and work with new things.
+      <span class="font-accent-font text-accent-text">Express</span> and I am
+      currently learning
+      <span class="font-accent-font text-accent-text">Python</span> to get
+      started with this exiting language.
     </p>
     <div
       class="flex gap-10 text-5xl flex-wrap-column max-md:text-5xl 2xl:text-6xl"

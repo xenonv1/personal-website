@@ -60,13 +60,12 @@
       <span class="font-accent-font text-accent-text">macOS</span>.
     </p>
     <p class="text-xl pb-[1rem] leading-relaxed max-md:text-xl 2xl:text-3xl">
-      Other technologies I would love to try out in the future are Typescript,
-      Nuxt, React and React Native, aswell as other new upcoming, interesting
-      web technologies.
+      Other technologies I would love to try out in the future are Django and
+      Fast API for API development and beautiful soup for webscraping.
     </p>
     <p class="text-xl leading-relaxed max-md:text-xl 2xl:text-3xl">
-      Besides learning about new technologies I also want to further educate
-      myself in UI/UX Design.
+      Besides that technologies I want to get startet with data science in
+      python.
     </p>
   </div>
 </template>
