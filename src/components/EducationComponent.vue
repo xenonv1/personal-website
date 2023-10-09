@@ -58,6 +58,12 @@ export default {
       ],
       work: [
         {
+          from: "02.10.2022",
+          to: "today",
+          company: "prego services GmbH",
+          type: "Working student Software Development",
+        },
+        {
           from: "01.2022",
           to: "04.2022",
           company: "ORTEC GmbH",
