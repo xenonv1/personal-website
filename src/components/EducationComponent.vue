@@ -58,7 +58,7 @@ export default {
       ],
       work: [
         {
-          from: "02.10.2022",
+          from: "01.10.2022",
           to: "today",
           company: "prego services GmbH",
           type: "Working student Software Development",
