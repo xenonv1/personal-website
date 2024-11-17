@@ -11,26 +11,33 @@
       Niklas Borresch
     </h1>
     <h2 class="text-5xl pb-[4rem] max-md:text-4xl 2xl:text-7xl">
-      Master's Student in Information Management
+      Software Developer SAP IS-U
     </h2>
 
     <p class="text-xl leading-relaxed pb-[1rem] max-md:text-lg 2xl:text-3xl">
       I am a
       <span class="font-accent-font text-accent-text">software developer</span>
-      aswell as
-      <span class="font-accent-font text-accent-text"
-        >master's student in Information Management</span
-      >
-      at the University of Applied Sciences Kaiserslautern.
+      specialized in
+      <span class="font-accent-font text-accent-text">SAP IS-U development</span
+      >.
     </p>
     <p class="text-xl leading-relaxed pb-[4rem] max-md:text-lg 2xl:text-3xl">
-      I already worked with web technologies like
+      Therefore I am working with SAP Technologies like
+      <span class="font-accent-font text-accent-text">ABAP</span>,
+      <span class="font-accent-font text-accent-text">ABAP OO</span> and
+      <span class="font-accent-font text-accent-text">CDS Views</span>. I
+      already worked with SAP Technologies on BTP like
+      <span class="font-accent-font text-accent-text"
+        >Cloud Application Programming Model (CAP)</span
+      >
+      and <span class="font-accent-font text-accent-text">SAP UI5</span>.
+      <br />
+      <br />
+      During my studies I worked with technologies like
       <span class="font-accent-font text-accent-text">Vue.js</span>,
       <span class="font-accent-font text-accent-text">Tailwind</span> and
-      <span class="font-accent-font text-accent-text">Express</span> and I am
-      currently learning
-      <span class="font-accent-font text-accent-text">Python</span> to get
-      started with this exiting language.
+      <span class="font-accent-font text-accent-text">Express</span> and
+      <span class="font-accent-font text-accent-text">Python</span>.
     </p>
     <div
       class="flex gap-10 text-5xl flex-wrap-column max-md:text-5xl 2xl:text-6xl"

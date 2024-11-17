@@ -11,7 +11,7 @@
       <span class="font-accent-font text-accent-text">bachelor of science</span
       >. In 2022 I continued this degree by starting the
       <span class="font-accent-font text-accent-text"
-        >consecutive master's degree</span
+        >consecutive master's degree which I finished in 2024</span
       >.
     </p>
     <EducationDetails v-for="item in education" :data="item" />
@@ -36,7 +36,7 @@ export default {
       education: [
         {
           from: "2022",
-          to: "today",
+          to: "2024",
           school: "University of Applied Sciences",
           location: "Kaiserslautern / Zweibrücken",
           degree: "M.Sc. Information Management",

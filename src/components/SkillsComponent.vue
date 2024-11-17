@@ -10,6 +10,9 @@
     >
       <div class="flex flex-col gap-4 mb-[2rem]">
         <p class="font-thin">technologies I already worked with</p>
+        <p>ABAP</p>
+        <p>ABAP OO</p>
+        <p>CDS Views</p>
         <p>HTML</p>
         <p>
           CSS
@@ -27,16 +30,14 @@
             >)</span
           >
         </p>
-        <p>C# (.NET, Xamarin)</p>
         <p>
           Python
           <span class="text-base max-md:text-base 2xl:text-2xl"
-            >(<span class="font-accent-font text-accent-text">Flask</span
+            >(<span class="font-accent-font text-accent-text"
+              >Fast API, Langchain, RAGAs</span
             >)</span
           >
         </p>
-        <p>Flutter</p>
-        <p>Java</p>
         <P>SQL</P>
         <p>Git</p>
       </div>
@@ -50,6 +51,7 @@
           Repositories on
           <span class="font-accent-font text-accent-text">GitHub</span> and
           <span class="font-accent-font text-accent-text">BitBucket</span>
+          <span class="font-accent-font text-accent-text">GitLab</span>
         </p>
         <p>CI-/CD-Tools (TeamCity, Octopus Deploy)</p>
       </div>
@@ -58,14 +60,6 @@
       I am used to work on
       <span class="font-accent-font text-accent-text">Windows</span> and
       <span class="font-accent-font text-accent-text">macOS</span>.
-    </p>
-    <p class="text-xl pb-[1rem] leading-relaxed max-md:text-xl 2xl:text-3xl">
-      Other technologies I would love to try out in the future are Django and
-      Fast API for API development and beautiful soup for webscraping.
-    </p>
-    <p class="text-xl leading-relaxed max-md:text-xl 2xl:text-3xl">
-      Besides that technologies I want to get startet with data science in
-      python.
     </p>
   </div>
 </template>
