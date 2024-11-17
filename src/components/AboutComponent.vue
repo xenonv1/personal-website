@@ -7,8 +7,8 @@
     </h1>
     <p class="leading-relaxed text-xl pb-[1rem] max-md:text-xl 2xl:text-3xl">
       Hi, I am Niklas Borresch from Germany. Currently, I am
-      <span class="font-accent-font text-accent-text">24 years</span> old and
-      live in the
+      <span class="font-accent-font text-accent-text">25</span>
+      old and live in the
       <span class="font-accent-font text-accent-text">Saarland</span>, next to
       the border to Rheinland-Pfalz.
     </p>

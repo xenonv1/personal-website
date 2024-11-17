@@ -58,8 +58,14 @@ export default {
       ],
       work: [
         {
-          from: "01.10.2022",
-          to: "today",
+          from: "01.10.2024",
+          to: "now",
+          company: "prego services GmbH",
+          type: "Trainee Software Development Utilities",
+        },
+        {
+          from: "01.10.2023",
+          to: "30.09.2024",
           company: "prego services GmbH",
           type: "Working student Software Development",
         },
